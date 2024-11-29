@@ -144,7 +144,8 @@ LOGIN_URL = '/'
 LOGIN_REDIRECT_URL = '/'
 LOGUT_REDIRECT_URL = '/'
 
-# AUTH_USER_MODEL
+#Telling django where the new user model is
+AUTH_USER_MODEL = "userauth.User"
 
 
 MESSAGE_TAGS = {
